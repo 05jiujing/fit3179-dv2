@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": "container",
   "height": 450,
-  "padding": {"top": 10, "left": 10, "bottom": 10, "right": 140},
+  "padding": {"top": 10, "left": 10, "bottom": 10, "right": 100},
   "autosize": {"type": "fit", "contains": "padding"},
   "data": {
     "url": "data/ncver_top10_trades.csv"

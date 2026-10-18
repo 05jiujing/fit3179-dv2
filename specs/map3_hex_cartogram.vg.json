@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": "container",
-  "height": 500,
+  "height": 420,
   "autosize": {"type": "fit", "contains": "padding"},
   "data": {
     "url": "data/australia_hex_cartogram.csv"
@@ -11,7 +11,7 @@
       "mark": {
         "type": "point",
         "shape": "M 0 -1 L 0.866 -0.5 L 0.866 0.5 L 0 1 L -0.866 0.5 L -0.866 -0.5 Z",
-        "size": 5500,
+        "size": 6500,
         "filled": true,
         "stroke": "#ffffff",
         "strokeWidth": 2.5
@@ -20,7 +20,7 @@
         "x": {
           "field": "Grid_Col",
           "type": "quantitative",
-          "scale": {"domain": [0.5, 4.5]},
+          "scale": {"domain": [0.6, 4.4]},
           "axis": null
         },
         "y": {

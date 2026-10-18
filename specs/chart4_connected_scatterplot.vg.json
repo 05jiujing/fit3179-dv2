@@ -17,7 +17,6 @@
       "mark": {
         "type": "line",
         "strokeWidth": 2.2,
-        "opacity": 0.75,
         "interpolate": "linear"
       },
       "encoding": {
@@ -50,6 +49,13 @@
             "orient": "bottom",
             "direction": "horizontal"
           }
+        },
+        "opacity": {
+          "condition": {
+            "test": "datum.Policy_Era == '2016–19'",
+            "value": 0.4
+          },
+          "value": 0.85
         }
       }
     },
