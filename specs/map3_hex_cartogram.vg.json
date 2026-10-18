@@ -11,7 +11,7 @@
       "mark": {
         "type": "point",
         "shape": "M 0 -1 L 0.866 -0.5 L 0.866 0.5 L 0 1 L -0.866 0.5 L -0.866 -0.5 Z",
-        "size": 6500,
+        "size": 5500,
         "filled": true,
         "stroke": "#ffffff",
         "strokeWidth": 2.5
